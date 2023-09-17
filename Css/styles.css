@@ -5,6 +5,7 @@
     --secondColor: #DCDCDC;
     --thirdcolor:#00020D;
     --fourthColor:#bec2c3;
+    --fifthColor:#1a2930;
 }
 
 *{
@@ -32,6 +33,7 @@ body{
     height: 400px;
     background-position: center bottom;
     background-size: cover;
+    /* background-attachment: fixed; */
     margin-bottom: 100px;
 }
 
@@ -121,7 +123,50 @@ body{
 /* main products */
 
 .products{
+    margin-bottom: 100px;
+}
+
+.products__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.products__group{
+    background-color: #F0F8FF;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.products__img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.price{
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.price p{
+    color: var(--fifthColor);
+}
+
+.price a{
+    background-color:var(--fifthColor);
+    padding: 5px;
+    border-radius: 10px;
+    color:var(--primaryColor);
+}
+
+.price a:hover{
+    background-color: transparent;
+    border: 1px solid var(--fifthColor);
+    color: var(--fifthColor);
+    font-weight: 400;
 }
 
 
