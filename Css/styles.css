@@ -214,3 +214,49 @@ body{
 }
 
 
+/* section testimonys */
+
+.testimonys{
+    margin-bottom: 100px;
+}
+
+.testimonys h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.testimonys__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.testimonys__group{
+    background-color: var(--secondColor);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.testimonys__img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+    
+}
+
+.testimonys__stars{
+    width: 20%;
+}
+
+.testimonys__text h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testimonys__text p{
+    text-align: justify;
+    font-size: 16px;
+}
