@@ -21,7 +21,7 @@ body{
 }
 
 .conteiner{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -236,6 +236,7 @@ body{
     background-color: var(--secondColor);
     padding: 20px;
     border-radius: 20px;
+    border-top: 5px solid black;
 }
 
 
@@ -260,3 +261,29 @@ body{
     text-align: justify;
     font-size: 16px;
 }
+
+/* footer */
+
+.footer{
+    padding: 50px 0;
+    background-color: var(--fifthColor);
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer__group ul li a{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--primaryColor);
+}
+
+.footer__group ul li a:hover{
+    color: var(--fourthColor);
+}
+
+
